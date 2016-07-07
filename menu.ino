@@ -2,7 +2,7 @@ void menu()
 {
   if(modechange)
   {
-    x_pos = 64;
+    x_pos = 48;
     y_pos = 32;
     modechange = 0;
 
