@@ -69,7 +69,7 @@ int lastmode = 0; // last mode the watch was in, used for knowing when modes swi
 int modechange = 0; // for passing the mode switch into the functions 
 int n=0;
 #define screen_pixels_x 95  // size of the screen in pixels - 1, i.e. 128 pixel screen is 127 for the 0-127 index
-#define screen_pixels_y 95  // size of the screen in pixels - 1, i.e. 128 pixel screen is 127 for the 0-127 index
+#define screen_pixels_y 63  // size of the screen in pixels - 1, i.e. 128 pixel screen is 127 for the 0-127 index
 #define screen_adjust_x 16  // move to center programs written for the the 96x64 pixels screen
 #define screen_adjust_y 32  // move to center programs written for the the 96x64 pixels screen
 // End general variables
